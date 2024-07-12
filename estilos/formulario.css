@@ -1,0 +1,43 @@
+h2 {
+    text-align: center;
+}
+input [type="text"],
+input [type="email"],
+textarea,
+select{
+    width: 100%;
+    display: inline-block;
+    margin: 6px 0;
+    padding: 10px;
+    border: 1px solid #1f3d2d;
+    border-radius: 10px;
+    box-sizing:border-box;
+}
+input {justify-content: center;
+    
+
+}
+input [type="submit"] { 
+    background-color: #fbe9cc ;
+    color: antiquewhite;
+    padding: 14px 20px ;
+    margin: 8px 0;
+    border: 0;
+}
+.labellgao{
+    align-items: baseline;
+    justify-content: center;
+    display: flex;
+}
+form {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+body {
+    display: flex;
+
+}
+footer {
+    bottom: 0;
+}
